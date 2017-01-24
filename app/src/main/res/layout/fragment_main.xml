@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.notarazi.Eproc.MainActivity$PlaceholderFragment">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/cpf_cnpj"
+        android:onClick="startactivity_consulta_por_cpf_cnpj"
+        android:id="@+id/imageButtonCpfCnpj"
+        android:layout_below="@+id/imageButtonNomeDaParte"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/azul"
+        android:onClick="startactivity_consulta_por_numero_processo"
+        android:id="@+id/imageButtonNumeroProcesso"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/nome_da_parte"
+        android:onClick="activity_consultar_por_nome_da_parte"
+        android:id="@+id/imageButtonNomeDaParte"
+        android:layout_below="@+id/imageButtonNumeroProcesso"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/oab"
+        android:onClick="startactivity_login_juridico"
+        android:id="@+id/imageButtonOAB"
+        android:layout_below="@+id/imageButtonCpfCnpj"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>

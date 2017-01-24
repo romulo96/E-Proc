@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_retorno_consulta_processo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layout.MovimentacoesDetalhesProcessoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="15/06/2016 15:16:06"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfryr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Conclusão para despacho"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar2" />
+
+            <TextView
+            android:text="15/06/2016 15:07:06"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewfrjyr"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Ato Ordinário Praticado"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVikew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar6" />
+
+            <TextView
+                android:text="26/04/2016 00:20:15"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfrjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Decurso de Prazo"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVikew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar6" />
+
+            <TextView
+                android:text="25/04/2016 15:36:19"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfrjyhr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Remessa Interna"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVikehw5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progresdsBar6" />
+
+            <TextView
+                android:text="25/04/2016 09:26:14"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVieewfrjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Mandado Devolvido Cumprido"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/texteVikew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progresresBar6" />
+
+            <TextView
+                android:text="22/04/2016 11:25:01"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfrerjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Recebido o Mandado para Cumprimento"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVikerew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progresersBar6" />
+
+            <TextView
+                android:text="01/04/2016 23:59:59"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVieerwfrjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Remessa Interna"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViertkew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBghjar6" />
+
+            <TextView
+                android:text="15/06/2016 15:07:06"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfrfjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Intimação Eletrônica - Confirmada"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVifgkew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progrefgssBar6" />
+
+            <TextView
+                android:text="15/06/2016 15:07:06"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfgffrjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Intimação Eletrônica - Recebida"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVifgkew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progresshhBar6" />
+
+            <TextView
+                android:text="15/06/2016 15:07:06"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfrhhjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Ato Ordinário Praticado"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/hgfd"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBghar6" />
+
+            <TextView
+                android:text="15/06/2016 15:07:06"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfrjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Processo Desarquivado"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVikghew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressghgBar6" />
+
+
+            <TextView
+                android:text="15/06/2016 15:07:06"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewfr45jyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Baixa Definitiva"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVi45kghew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progres445sghgBar6" />
+
+
+            <TextView
+                android:text="15/06/2016 15:07:06"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView45frjyr"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:text="Trânsito em Julgado"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textVikg45hew5"
+                tools:ignore="HardcodedText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressghgBar456" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Eproc</string>
+    <string name="action_settings">Configurações</string>
+    <string name="section_format"></string>
+    <string name="title_activity_detalhes_processo">Processo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="section_format">Seja Bem Vindo a Seção: %1$d</string>-->
+</resources>
